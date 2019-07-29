@@ -1,0 +1,19 @@
+#pragma once
+#include <Engine/Components/GraphicsComponents.h>
+#include <Engine/Components/Frame/Frame.h>
+#include <Engine/Components/Grafics/Camera2D.h>
+#include <Engine/Components/ResourceManager/ResourceManager.h>
+#include <Engine/Components/Buffers/ArrayBufferHandler.h>
+#include <Engine/Components/Texture/Texture2D.h>
+#include <Engine/Components/Texture/Sprite.h>
+#include <Engine/Components/Shaders/ShaderProgram.h>
+#include <Engine/Components/Animation/SpriteAnimator.h>
+#include <Engine/Components/Geometry/Intersects.h>
+
+#include <Engine/Utils/types.h>
+#include <Engine/Utils/matrix.h>
+#include <Engine/Utils/info_vector.h>
+#include <glm/glm.hpp>
+#include <glm/gtx/matrix_transform_2d.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>

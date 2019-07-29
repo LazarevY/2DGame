@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{99e64063-97ed-4e41-bffa-0e4d36fce31d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\ResourceManager">
+      <UniqueIdentifier>{3bea4d26-e486-4a15-8428-8635d61256d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Buffers">
+      <UniqueIdentifier>{c0d4f056-4314-4ee8-ab5a-ba1fe515c6bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Exceptions">
+      <UniqueIdentifier>{758910f1-f5cd-4efe-9c60-1b6080a314f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Frame">
+      <UniqueIdentifier>{e69dbeb7-980c-4dff-bfd9-70985bbc5570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\InputManager">
+      <UniqueIdentifier>{82cb3980-79dc-43f4-8b6e-1b984a66dae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Shaders">
+      <UniqueIdentifier>{de610f75-e515-4bfc-8701-4ee9b3f5640a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Texture">
+      <UniqueIdentifier>{d951cfe9-f9c1-4581-9ea1-e510a100e1fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{4bbb77b8-9afc-4b08-9ac5-e56357ab6e42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Animation">
+      <UniqueIdentifier>{80d83fa0-70d8-492b-92a9-b0ea5391ab5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Physic">
+      <UniqueIdentifier>{ab18cdf0-ce50-43e7-a2ed-5460e5216cae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Geometry">
+      <UniqueIdentifier>{d994c6bf-e2ad-461c-825a-bd21c37aef4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Geometry\Primitives">
+      <UniqueIdentifier>{a2b60b4c-990c-4f86-bca9-7c6f1eb68c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Grafics">
+      <UniqueIdentifier>{5432240c-aa0f-4974-b6c2-f0f93c27368c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Grafics\Render">
+      <UniqueIdentifier>{31c6d67d-853f-4c85-8f51-b2ebcc25ac6a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Components\ResourceManager\ResourceManager.cpp">
+      <Filter>Components\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\ResourceManager\ShaderProgramLoader.cpp">
+      <Filter>Components\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\ResourceManager\TextureLoader.cpp">
+      <Filter>Components\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Buffers\ArrayBufferHandler.cpp">
+      <Filter>Components\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Frame\Frame.cpp">
+      <Filter>Components\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\InputManager\InputManager.cpp">
+      <Filter>Components\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Shaders\ShaderProgram.cpp">
+      <Filter>Components\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Shaders\ShaderProgramException.h">
+      <Filter>Components\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Animation\SpriteAnimation.cpp">
+      <Filter>Components\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Animation\SpriteAnimator.cpp">
+      <Filter>Components\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\matrix.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Texture\Texture2D.cpp">
+      <Filter>Components\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Texture\Texture.cpp">
+      <Filter>Components\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Texture\Sprite.cpp">
+      <Filter>Components\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\ResourceManager\SpriteLoader.cpp">
+      <Filter>Components\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\ResourceManager\ResourceLoadingException.cpp">
+      <Filter>Components\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Geometry\Primitives\Rectangle.cpp">
+      <Filter>Components\Geometry\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Geometry\Intersects.cpp">
+      <Filter>Components\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Geometry\Primitives\OrientedRectangle.cpp">
+      <Filter>Components\Geometry\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Geometry\Primitives\Interval.cpp">
+      <Filter>Components\Geometry\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Grafics\Camera2D.cpp">
+      <Filter>Components\Grafics</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Grafics\Render\Render.cpp">
+      <Filter>Components\Grafics\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Grafics\Render\SimpleTextureRender.cpp">
+      <Filter>Components\Grafics\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\Grafics\Render\SpriteAnimationRender.cpp">
+      <Filter>Components\Grafics\Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Components\ResourceManager\BaseResource.h">
+      <Filter>Components\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ResourceManager\Resource.h">
+      <Filter>Components\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ResourceManager\ResourceLoader.h">
+      <Filter>Components\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ResourceManager\ResourceLoadingException.h">
+      <Filter>Components\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ResourceManager\ResourceHandle.h">
+      <Filter>Components\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ResourceManager\ShaderProgramLoader.h">
+      <Filter>Components\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ResourceManager\TextureLoader.h">
+      <Filter>Components\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Buffers\ArrayBufferHandler.h">
+      <Filter>Components\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Buffers\ArrayBufferException.h">
+      <Filter>Components\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Exceptions\BaseException.h">
+      <Filter>Components\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Frame\Frame.h">
+      <Filter>Components\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\InputManager\InputManager.h">
+      <Filter>Components\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Shaders\ShaderProgram.h">
+      <Filter>Components\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\typeid.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\types.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ResourceManager\ResourceManager.h">
+      <Filter>Components\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Animation\Animation.h">
+      <Filter>Components\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Animation\SpriteAnimation.h">
+      <Filter>Components\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Animation\Animator.h">
+      <Filter>Components\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Animation\SpriteAnimator.h">
+      <Filter>Components\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\matrix.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Texture\Sprite.h">
+      <Filter>Components\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Texture\Texture2D.h">
+      <Filter>Components\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Texture\Texture.h">
+      <Filter>Components\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\ResourceManager\SpriteLoader.h">
+      <Filter>Components\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\info_vector.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Geometry\Primitives\Rectangle.h">
+      <Filter>Components\Geometry\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Geometry\Intersects.h">
+      <Filter>Components\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Geometry\Primitives\OrientedRectangle.h">
+      <Filter>Components\Geometry\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Geometry\Primitives\Interval.h">
+      <Filter>Components\Geometry\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Texture\GL.h">
+      <Filter>Components\Grafics</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\GraphicsComponents.h">
+      <Filter>Components\Grafics</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Grafics\Camera2D.h">
+      <Filter>Components\Grafics</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Grafics\Render\Render.h">
+      <Filter>Components\Grafics\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Buffers\Buffer.h">
+      <Filter>Components\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Grafics\Render\SimpleTextureRender.h">
+      <Filter>Components\Grafics\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\Grafics\Render\SpriteAnimationRender.h">
+      <Filter>Components\Grafics\Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
